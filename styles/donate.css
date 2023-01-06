@@ -135,7 +135,7 @@ font-size: 16px;
 .your-container{
 width: 500px;
 height: 400px;
-background: rgba(79, 157, 166, 0.1);
+/* background: rgba(79, 157, 166, 0.1); */
 margin-left: 150px;
 }
 .your-title{
@@ -173,7 +173,7 @@ padding: 16px 12px;
 .your-container2{
     width: 500px;
 height: 400px;
-background: rgba(79, 157, 166, 0.1);
+/* background: rgba(79, 157, 166, 0.1); */
 margin-right: 150px;
 }
 
@@ -211,7 +211,20 @@ form{
 display: flex;
 justify-content: center;
 
-padding: 90px 180px;
+padding: 70px 180px;
+}
+input{
+    width: 275px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 20px ;
+    width: 157px;
+height: 48px;
 }
 /* footer */
 .footer-div{
